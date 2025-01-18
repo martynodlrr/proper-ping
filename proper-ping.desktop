@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Proper Ping
+GenericName=Ping
+Comment=The way it should be
+Exec=kitty --single-instance -e bash -c "/bin/proper-ping; read -n 1"
+Icon=/home/{user}/Pictures/proper-ping.png
+Terminal=false
+Categories=System;Utility;
